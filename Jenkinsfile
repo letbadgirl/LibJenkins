@@ -1,7 +1,10 @@
 pipeline {
+agent any
 	stages{
 		stage('Test'){
-			bat 'Punch line.'
+			step{
+				bat 'Punch line.'
+			}			
 		}
 	}	
 }

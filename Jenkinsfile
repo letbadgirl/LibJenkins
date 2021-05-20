@@ -1,3 +1,7 @@
 pipeline {
-	bat 'Punch line.'
+	stages{
+		stage('Test'){
+			bat 'Punch line.'
+		}
+	}	
 }

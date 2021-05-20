@@ -1,5 +1,3 @@
 pipeline {
-    def call(String name = 'User') {
-		echo "Welcome, ${name}."
-    }
+	bat 'Punch line.'
 }
